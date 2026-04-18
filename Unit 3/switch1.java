@@ -4,6 +4,7 @@ public class switch1 {
         String result = switch(day){
             case 1 -> "Monday";
             case 2 -> "Tuesday";
+            case 3 -> "wednesday";
             default -> "Invalid";
         };
         System.out.println(result);
